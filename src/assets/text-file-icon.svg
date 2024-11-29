@@ -1,0 +1,24 @@
+<svg width="41" height="49" viewBox="0 0 41 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="1.35294" x2="1.35294" y2="46" stroke="#323232" stroke-width="2.70588"/>
+<line x1="27.0588" y1="1.35294" x2="-1.90735e-06" y2="1.35294" stroke="#323232" stroke-width="2.70588"/>
+<line x1="28.4118" y1="2.70589" x2="28.4118" y2="4.52995e-06" stroke="#323232" stroke-width="2.70588"/>
+<line x1="31.1176" y1="5.41174" x2="31.1176" y2="2.70586" stroke="#323232" stroke-width="2.70588"/>
+<line x1="33.8235" y1="8.11765" x2="33.8235" y2="5.41176" stroke="#323232" stroke-width="2.70588"/>
+<line x1="36.5294" y1="10.8235" x2="36.5294" y2="8.11765" stroke="#323232" stroke-width="2.70588"/>
+<line x1="39.2353" y1="10.8235" x2="39.2353" y2="16.2353" stroke="#323232" stroke-width="2.70588"/>
+<line x1="40.5882" y1="47.3529" x2="1.14441e-05" y2="47.3529" stroke="#323232" stroke-width="2.70588"/>
+<line x1="39.2353" y1="46" x2="39.2353" y2="16.2353" stroke="#323232" stroke-width="2.70588"/>
+<line x1="28.4118" y1="2.70589" x2="28.4118" y2="13.5294" stroke="#323232" stroke-width="2.70588"/>
+<line x1="27.0588" y1="14.8823" x2="40.5882" y2="14.8823" stroke="#323232" stroke-width="2.70588"/>
+<rect x="2.70589" y="2.70589" width="24.3529" height="43.2941" fill="white"/>
+<rect x="27.0588" y="16.2353" width="10.8235" height="29.7647" fill="white"/>
+<line x1="31.1177" y1="5.41174" x2="31.1177" y2="13.5294" stroke="white" stroke-width="2.70588"/>
+<line x1="33.8235" y1="8.11765" x2="33.8235" y2="13.5294" stroke="white" stroke-width="2.70588"/>
+<line x1="36.5294" y1="10.8235" x2="36.5294" y2="13.5294" stroke="white" stroke-width="2.70588"/>
+<line x1="5" y1="7" x2="24" y2="7" stroke="#9999A5" stroke-width="2"/>
+<line x1="5" y1="14" x2="24" y2="14" stroke="#9999A5" stroke-width="2"/>
+<line x1="5" y1="21" x2="35" y2="21" stroke="#9999A5" stroke-width="2"/>
+<line x1="5" y1="28" x2="35" y2="28" stroke="#9999A5" stroke-width="2"/>
+<line x1="5" y1="35" x2="35" y2="35" stroke="#9999A5" stroke-width="2"/>
+<line x1="24" y1="42" x2="35" y2="42" stroke="#9999A5" stroke-width="2"/>
+</svg>

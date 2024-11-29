@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "VT323", monospace;
+}
+
+/* Custom Window border styles */
+.window-border {
+  border-width: 2px;
+  border-style: solid;
+  border-color: white #808080 #808080 white;
+}
+
+/* Windows 98 button styles */
+button {
+  @apply border-2 py-1 px-2 bg-white text-black;
+  border-color: white #808080 #808080 white;
+  cursor: pointer;
+}
+
+button:active {
+  border-color: #808080 white white #808080;
+}
+
+/* Windows 98 window styles */
+.window {
+  @apply border-2 p-4 bg-win-bg text-win-blue;
+  border-color: white #808080 #808080 white;
+}
+
+/* Add hover effects for buttons */
+button:hover {
+  @apply bg-gray-200;
+}
