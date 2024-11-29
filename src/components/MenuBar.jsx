@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import resume from "../assets/resume.pdf";
 
 const MenuBar = () => {

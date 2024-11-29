@@ -4,9 +4,9 @@ import keyboard from "../assets/keyboard.png";
 import phin from "../assets/phin.png";
 
 const TimeCapsuleItem = ({ title, description, photo }) => (
-  <div className="flex-1 border-4 border-win-border bg-white p-2">
+  <div className="flex-1 border-4 border-win-border bg-white">
     <div className="w-full h-40 mb-2 mx-auto">
-      <img src={photo} alt={title} className="w-full h-full object-contain" />
+      <img src={photo} alt={title} className="w-full h-full object-cover" />
     </div>
     <h3 className="text-center text-2xl font-bold mb-2">{title}</h3>
     {/* <p className="text-lg text-gray-700">{description}</p> */}
@@ -37,7 +37,7 @@ const TimeCapsuleWindow = ({ isOpen, onClose }) => {
 
   return (
     <Window title="Time Capsule" isOpen={isOpen} onClose={onClose}>
-      <div className=" flex gap-4 p-4 bg-white">
+      <div className=" flex gap-4 mb-4 bg-white">
         {items.map((item) => (
           <TimeCapsuleItem
             photo={item.photo}
@@ -48,34 +48,58 @@ const TimeCapsuleWindow = ({ isOpen, onClose }) => {
         ))}
       </div>
 
-      <div className="bg-win-blue text-white text-center p-2">
-        <span>
-          In my time capsule, I would place three objects embodying who I am and
-          how I work: gym shoes, a custom mechanical keyboard, and a traditional
-          Vietnamese coffee filter (phin). My gym shoes represent more than just
-          physical activity - they symbolize my personal and professional growth
-          approach. Like training in the gym, success in consulting requires
-          consistency, progressive overload, and comfort with discomfort. These
-          shoes have carried me through countless workouts, each a reminder that
-          meaningful progress comes from showing up daily and pushing boundaries
-          incrementally. My mechanical keyboard is my primary tool for turning
-          ideas into impact. Its customizable nature reflects my belief that
-          systems should be optimized for their users. Each keystroke represents
-          the interface between strategic thinking and execution, between
-          concept and creation. Just as I've modified this keyboard to
-          perfection, I constantly refine my approaches to problem-solving. The
-          Vietnamese coffee phin is my bridge between heritage and innovation.
-          This traditional brewing method requires patience - the slow drip of
-          coffee through the filter can be quick, much like how the best
-          solutions often need time to percolate. It represents my cultural
-          perspective that enriches my problem-solving approach. The ritual of
-          preparing coffee this way grounds me daily, reminding me that
-          sometimes the most impactful solutions come from blending traditional
-          wisdom with modern thinking. Together, these objects tell the story of
-          someone who values discipline, craftsmanship, and cultural perspective
-          - essential qualities for a consultant working at the intersection of
-          strategy and innovation.
-        </span>
+      <div className="bg-win-white text-win-black p-6 overflow-y-auto max-h-[400px]">
+        <div className="max-w-4xl mx-auto space-y-4">
+          <p className="text-xl leading-relaxed mb-4">
+            In my time capsule, I would place three objects embodying who I am
+            and how I work: gym shoes, a custom mechanical keyboard, and a
+            traditional Vietnamese coffee filter (phin).
+          </p>
+
+          <div className="mb-6">
+            <p className="text-xl leading-relaxed">
+              My gym shoes represent more than just physical activity - they
+              symbolize my personal and professional growth approach. Like
+              training in the gym, success in consulting requires consistency,
+              progressive overload, and comfort with discomfort. These shoes
+              have carried me through countless workouts, each a reminder that
+              meaningful progress comes from showing up daily and pushing
+              boundaries incrementally.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <p className="text-xl leading-relaxed">
+              My mechanical keyboard is my primary tool for turning ideas into
+              impact. Its customizable nature reflects my belief that systems
+              should be optimized for their users. Each keystroke represents the
+              interface between strategic thinking and execution, between
+              concept and creation. Just as I've modified this keyboard to
+              perfection, I constantly refine my approaches to problem-solving.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <p className="text-xl leading-relaxed">
+              The Vietnamese coffee phin is my bridge between heritage and
+              innovation. This traditional brewing method requires patience -
+              the slow drip of coffee through the filter can't be rushed, much
+              like how the best solutions often need time to percolate. It
+              represents my cultural perspective that enriches my
+              problem-solving approach. The ritual of preparing coffee this way
+              grounds me daily, reminding me that sometimes the most impactful
+              solutions come from blending traditional wisdom with modern
+              thinking.
+            </p>
+          </div>
+
+          <p className="text-xl leading-relaxed">
+            Together, these objects tell the story of someone who values
+            discipline, craftsmanship, and cultural perspective - essential
+            qualities for a consultant working at the intersection of strategy
+            and innovation.
+          </p>
+        </div>
       </div>
     </Window>
   );
