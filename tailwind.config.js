@@ -6,6 +6,15 @@ export default {
       fontFamily: {
         vt323: ["VT323", "monospace"],
       },
+      keyframes: {
+        loading: {
+          "0%": { width: "0%" },
+          "100%": { width: "100%" },
+        },
+      },
+      animation: {
+        loading: "loading 1s linear forwards",
+      },
       colors: {
         "win-gray": "#C0C0C0",
         "win-white": "#E7E1E0",

@@ -18,11 +18,20 @@ const AboutWindow = ({ isOpen, onClose }) => (
         <div className="bg-win-white font-sans text-win-black p-6 overflow-y-auto max-h-[400px]">
           <h2 className="text-xl mb-2 font-bold">Hi, I&apos;m Bach Le. 👋🏼</h2>
           <p className="text-base leading-relaxed mb-4">
-            As Director of Operations and Engineering at OHOS Media, I sit at
-            the intersection of strategy, technology, and creativity. My journey
-            from engineering to strategic leadership reflects my passion for
-            solving complex problems and driving brand innovation through
-            data-driven insights.
+            As Director of Operations and Engineering at{" "}
+            <a
+              href="https://www.ohos.nyc"
+              className="italic underline cursor-pointer decoration-wavy decoration-win-blue"
+              target="_blank"
+            >
+              
+              OHOS Media
+            
+            </a>
+            , I sit at the intersection of strategy, technology, and creativity.
+            My journey from engineering to strategic leadership reflects my
+            passion for solving complex problems and driving brand innovation
+            through data-driven insights.
           </p>
           <p className="text-base leading-relaxed mb-4">
             Leading cross-functional teams across engineering, design, and
