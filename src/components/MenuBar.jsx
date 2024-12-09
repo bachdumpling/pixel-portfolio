@@ -63,7 +63,7 @@ const MenuBar = () => {
             </button>
             {activeMenu === "contact" && (
               <div className="absolute top-full bg-win-white border-2 border-win-border shadow-md min-w-[200px]">
-                <div className="px-4 py-2">Email: your.email@example.com</div>
+                <div className="px-4 py-2">Email: bach@bachle.info</div>
                 <div className="px-4 py-2">Phone: (646) 415-2281</div>
                 <a
                   href="https://linkedin.com/in/bachhoangle"
