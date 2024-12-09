@@ -6,6 +6,7 @@ import TimeCapsuleWindow from "./components/TimeCapsuleWindow";
 import LoadingScreen from "./components/LoadingScreen";
 import folderIcon from "./assets/folder-icon.svg";
 import notepadIcon from "./assets/notepad.svg";
+import { inject } from "@vercel/analytics";
 
 function App() {
   const [isAboutOpen, setIsAboutOpen] = useState(false);
@@ -14,6 +15,8 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    inject();
+
     // Simulate loading time
     const timer = setTimeout(() => {
       setIsLoading(false);
