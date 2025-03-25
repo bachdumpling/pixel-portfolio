@@ -1,5 +1,4 @@
 import { useState } from "react";
-import resume from "../assets/resume.pdf";
 
 const MenuBar = () => {
   const [activeMenu, setActiveMenu] = useState(null);
@@ -12,7 +11,7 @@ const MenuBar = () => {
     <div className="">
       <div className="bg-win-blue border-b text-4xl text-center border-win-border p-4">
         <span>
-          The 2025 Ogilvy Residency - My time capsule from{" "}
+          A Random Website by {" "}
           <a
             href="https://www.bachle.info"
             className="underline decoration-wavy decoration-win-yellow"
@@ -35,7 +34,7 @@ const MenuBar = () => {
             {activeMenu === "file" && (
               <div className="absolute top-full left-2 bg-win-white border-2 border-win-border shadow-md min-w-[200px]">
                 <a
-                  href={resume}
+                  href="https://go.jooba.com/nl1dfri"
                   target="_blank"
                   className="block px-4 py-2 hover:bg-gray-300"
                 >

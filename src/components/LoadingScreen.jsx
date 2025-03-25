@@ -3,7 +3,7 @@ const LoadingScreen = () => (
     <div className="bg-win-gray border-4 border-win-border w-full max-w-lg p-10">
       {/* Title */}
       <h1 className="text-win-border font-vt323 text-4xl mb-8 text-center">
-         LOADING...
+        <span className="animate-pulse">LOADING... </span>
       </h1>
 
       {/* Loading Bar Container */}

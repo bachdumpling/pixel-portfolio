@@ -17,44 +17,14 @@ const AboutWindow = ({ isOpen, onClose }) => (
         </div>
         <div className="bg-win-white font-sans text-win-black p-6 overflow-y-auto max-h-[400px]">
           <h2 className="text-xl mb-2 font-bold">Hi, I&apos;m Bach Le. 👋🏼</h2>
-          <p className="text-base leading-relaxed mb-4">
-            As Director of Operations and Engineering at{" "}
-            <a
-              href="https://www.ohos.nyc"
-              className="italic underline cursor-pointer decoration-wavy decoration-win-blue"
-              target="_blank"
-            >
-              
-              OHOS Media
-            
-            </a>
-            , I sit at the intersection of strategy, technology, and creativity.
-            My journey from engineering to strategic leadership reflects my
-            passion for solving complex problems and driving brand innovation
-            through data-driven insights.
+          <p>
+            I&apos;m a creative technologist based in Brooklyn, NYC. I&apos;m
+            passionate about building products that are both functional and
+            aesthetically pleasing.
           </p>
-          <p className="text-base leading-relaxed mb-4">
-            Leading cross-functional teams across engineering, design, and
-            business development has taught me the power of borderless
-            creativity - how diverse perspectives and collaborative
-            problem-solving can transform challenges into opportunities. At
-            OHOS, I&apos;ve helped bridge cultural and technological gaps while
-            working with clients like Mastercard and American Express,
-            developing strategies that resonate across different markets and
-            platforms.
-          </p>
-          <p className="text-base leading-relaxed mb-4">
-            My background uniquely positions me to understand both the technical
-            feasibility and strategic impact of innovative solutions. I&apos;m
-            driven by curiosity to explore how emerging technologies and
-            cultural insights can create meaningful brand experiences. This
-            curiosity, combined with my analytical mindset and collaborative
-            approach, fuels my passion for consulting and strategy development.
-          </p>
-          <p className="text-base leading-relaxed">
-            I&apos;m excited about the opportunity to bring this perspective to
-            Ogilvy's Strategy Track, where I can contribute to creating
-            culture-changing, value-driving ideas that make a lasting impact.
+          <p>
+            You will most likely find me at thrift stores 🛒, the gym 🏋🏼‍♂️, or in
+            the kitchen 🧑‍🍳.
           </p>
         </div>
       </div>

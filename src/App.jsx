@@ -68,7 +68,6 @@ function App() {
                 setSelectedIcon(null);
               }}
             />
-
             <TimeCapsuleWindow
               isOpen={isTimeCapsuleOpen}
               onClose={() => {

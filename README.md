@@ -1,9 +1,19 @@
-# React + Vite
+# Pixel Portfolio 🖥️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal portfolio website with a fun Windows 95 twist! Built with React + Vite + Tailwind CSS.
 
-Currently, two official plugins are available:
+## What's Inside?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# pixel-portfolio
+- Windows 95-style UI (because why not?)
+- Interactive file system to explore my work
+- A time capsule of my favorite things
+- Some cool retro animations
+
+## Run it locally
+
+```bash
+npm install
+npm run dev
+```
+
+That's it! Have fun exploring! 🚀
